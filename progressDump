@@ -1,0 +1,31 @@
+#include <conio.h>
+#include <iostream>
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+	int height = 0;
+	int width = 0;
+
+	cout << "\nEnter height: ";
+	cin >> height;
+
+	cout << "\nEnter width: ";
+	cin >> width;
+
+	int hh = height * height;
+	int ww = width * width;
+	int hhww = hh * ww;
+	int x0 = width;
+	int dx = 0;
+
+	for (int x = -width; x <= width; x++)
+		setpixel(origin.x + x, origin.y);
+
+	return 0;
+}
